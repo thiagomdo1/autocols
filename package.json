@@ -1,0 +1,25 @@
+{
+  "name": "autocols",
+  "version": "1.0.1",
+  "description": "Automatically hide table columns when there is not enough space",
+  "author": "thiagomdo1@gmail.com",
+  "license": "MIT",
+  "keywords": [
+    "table",
+    "columns",
+    "responsive",
+    "auto hide",
+    "autohide"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thiagomdo1/autocols.git"
+  },
+  "main": "autocols.js",
+  "scripts": {
+    "build": "esbuild ./autocols.js --bundle --minify-whitespace --minify-syntax --platform=browser --allow-overwrite --outfile=autocols.min.js"
+  },
+  "dependencies": {
+    "esbuild": "^0.15.13"
+  }
+}
