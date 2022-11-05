@@ -17,7 +17,7 @@
   },
   "main": "autocols.js",
   "scripts": {
-    "build": "esbuild ./autocols.js --bundle --minify-whitespace --minify-syntax --platform=browser --allow-overwrite --outfile=autocols.min.js"
+    "build": "esbuild ./autocols-source.js --bundle --minify-whitespace --minify-syntax --platform=browser --allow-overwrite --outfile=autocols.js"
   },
   "dependencies": {
     "esbuild": "^0.15.13"

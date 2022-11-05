@@ -33,7 +33,7 @@ Add "autocols" class to table elements:
 Create an instance to initialize Autocols:
 
 ```js
-new Autocols();
+new window.Autocols();
 ```
 
 To force keeping columns add "data-keepindexes" attribute with comma separated indexes:
