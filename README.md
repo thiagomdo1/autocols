@@ -2,6 +2,8 @@
 
 ## Automatically hide table columns when there is not enough space.
 
+[![npm version](https://badge.fury.io/js/autocols.svg)](https://badge.fury.io/js/autocols)
+
 ## Installation
 
 ```sh
