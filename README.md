@@ -21,7 +21,7 @@ import "autocols";
 Or add it via script tag:
 
 ```html
-<script src="node_modules/autocols/autocols.min.js"></script>
+<script src="node_modules/autocols/autocols.js"></script>
 ```
 
 Add "autocols" class to table elements:
