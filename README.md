@@ -33,11 +33,19 @@ Add "autocols" class to table elements:
 Create an instance to initialize Autocols:
 
 ```js
-new window.Autocols();
+const autocols = new window.Autocols();
 ```
 
 To force keeping columns add "data-keepindexes" attribute with comma separated indexes:
 
 ```html
 <table class="autocols" data-keepindexes="2,3">...</table>
+```
+
+Autocols is triggered when the document view (window) is resized. Use the "run" method if you need to trigger it manually:
+
+```js
+const autocols = new window.Autocols();
+
+autocols.run();
 ```
