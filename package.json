@@ -1,6 +1,6 @@
 {
   "name": "autocols",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Automatically hide table columns when there is not enough space",
   "author": "thiagomdo1@gmail.com",
   "license": "MIT",
